@@ -22,6 +22,7 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
 
     //creating strings
     String School_Name, Adjective, Color, Clothing, Animal, Teacher_Name, Adjective0, Place, Number, FoodItems, Beverage, Friend_Name, Verb, Verbing, Adverb, Object, Verb0, Adjective1, Student_Name, Verb_ing, Noun, Adjective2;
+   
 
     //prombting inputs
     School_Name = JOptionPane.showInputDialog(null,"Enter a name of a school", "School name", 2);
@@ -30,5 +31,26 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
     
     ImageIcon Smart = new ImageIcon("Smart.jpg");
     Clothing = (String)JOptionPane.showInputDialog(null,"Enter a piece of clothing", "clothing",-1,Smart,null,null);
+
+    Animal = JOptionPane.showInputDialog(null,"Enter in an animal");
+    Teacher_Name = JOptionPane.showInputDialog(null,"enter in a techer name", "Mr wheels");
+    Adjective0 = JOptionPane.showInputDialog(null,"Enter a Adjective", "Adjective", 2);
+    Place = JOptionPane.showInputDialog(null,"Enter a place", "Place", 1);
+    Number = JOptionPane.showInputDialog(null,"Enter a Number", "Number", 2);
+
+    ImageIcon FoodPic = new ImageIcon("food.png");
+    FoodItems = (String)JOptionPane.showInputDialog(null,"Enter a Food item(s)", "Food",-1,FoodPic,null,null);
+    
+    ImageIcon bev = new ImageIcon("bev.jpg");
+    Beverage = (String)JOptionPane.showInputDialog(null,"Enter a Beverage/Drink", "Beverage",-1,bev,null,null);
+
+
+
+
+
+
+
+
+
    }
 }
