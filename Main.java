@@ -44,11 +44,14 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
     ImageIcon bev = new ImageIcon("bev.jpg");
     Beverage = (String)JOptionPane.showInputDialog(null,"Enter a Beverage/Drink", "Beverage",-1,bev,null,null);
 
+    Friend_Name = JOptionPane.showInputDialog(null,"enter in a name", "Doug");
+
+    Verb = JOptionPane.showInputDialog(null,"Enter a Verb", "Verb", 2);
+
+    Verbing = JOptionPane.showInputDialog(null,"Enter a Verb ednding with -ing", "Verbing", 3);
 
 
-
-
-
+    Adverb = JOptionPane.showInputDialog(null,"Enter a adverb", "Adverb", 1);
 
 
 
