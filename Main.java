@@ -23,6 +23,12 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
     //creating strings
     String School_Name, Adjective, Color, Clothing, Animal, Teacher_Name, Adjective0, Place, Number, FoodItems, Beverage, Friend_Name, Verb, Verbing, Adverb, Object, Verb0, Adjective1, Student_Name, Verbing0, Noun, Adjective2;
    
+    //creating images
+    ImageIcon Smart = new ImageIcon("Smart.jpg");
+
+    ImageIcon FoodPic = new ImageIcon("food.png");
+
+    ImageIcon bev = new ImageIcon("bev.jpg");
 
     //prombting inputs
     School_Name = JOptionPane.showInputDialog(null,"Enter a name of a school", "School name", 2);
@@ -30,7 +36,6 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
 
     Color = (String)JOptionPane.showInputDialog(null,"Enter a color", "Color",1);
     
-    ImageIcon Smart = new ImageIcon("Smart.jpg");
 
     Clothing = (String)JOptionPane.showInputDialog(null,"Enter a piece of clothing", "clothing",-1,Smart,null,null);
 
@@ -44,7 +49,6 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
 
     Number = JOptionPane.showInputDialog(null,"Enter a Number", "Number", 2);
 
-    ImageIcon FoodPic = new ImageIcon("food.png");
 
     FoodItems = (String)JOptionPane.showInputDialog(null,"Enter a Food item(s)", "Food",-1,FoodPic,null,null);
     
