@@ -21,7 +21,7 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
 
 
     //creating strings
-    String School_Name, Adjective, Color, Clothing, Animal, Teacher_Name, Adjective0, Place, Number, FoodItems, Beverage, Friend_Name, Verb, Verbing, Adverb, Object, Verb0, Adjective1, Student_Name, Verb_ing, Noun, Adjective2;
+    String School_Name, Adjective, Color, Clothing, Animal, Teacher_Name, Adjective0, Place, Number, FoodItems, Beverage, Friend_Name, Verb, Verbing, Adverb, Object, Verb0, Adjective1, Student_Name, Verbing0, Noun, Adjective2;
    
 
     //prombting inputs
@@ -48,12 +48,25 @@ At the end of the day, everyone received a special [Noun] as a reward. It was a 
 
     Verb = JOptionPane.showInputDialog(null,"Enter a Verb", "Verb", 2);
 
-    Verbing = JOptionPane.showInputDialog(null,"Enter a Verb ednding with -ing", "Verbing", 3);
+    Verbing = JOptionPane.showInputDialog(null,"Enter a Verb ending with -ing", "Verb-ing", 3);
 
 
     Adverb = JOptionPane.showInputDialog(null,"Enter a adverb", "Adverb", 1);
 
+    Object = JOptionPane.showInputDialog(null,"enter in a object", "apple");
 
+    Verb0 = JOptionPane.showInputDialog(null,"Enter a Verb", "Verb", 2);
 
+    Adjective1 = JOptionPane.showInputDialog(null,"Enter a Adjective", "Adjective", 2);
+
+    Student_Name = JOptionPane.showInputDialog(null,"enter in a name", "josh");
+
+    Verbing0 = JOptionPane.showInputDialog(null,"Enter a Verb ending with -ing", "Verb-ing", 3);
+
+    Noun = JOptionPane.showInputDialog(null,"Enter a noun", "Noun", 2);
+
+    Adjective2 = JOptionPane.showInputDialog(null,"Enter a Adjective", "Adjective", 2);
+
+    JOptionPane.showMessageDialog(null,"Title: The Silly School Day Today at " + School_Name +", it was "+Adjective+" day! Everyone was excited to wear their "+Color+" "+Clothing+" and bring their favorite "+Animal+" to class.  In the morning, the teacher, "+Teacher_Name+", announced a surprise field trip to the "+Adjective+" "+Place+". Everyone had to pack a lunch with "+Number+" "+ FoodItems+" and a drink of "+bev+". On the bus, "+Friend_Name+" told a joke that made everyone "+Verb+". Even "+Teacher_Name+" couldn't stop "+Verbing+" with laughter! When they arrived at the "+Place+", "+Student_Name+" found a mysterious "+Object+" that granted the ability to "+Verb0+" "+Adverb+". It was so "+Adjective1+" that "+Student_Name+" started "+Verbing0+" all over the place. At the end of the day, everyone received a special "+Noun+" as a reward. It was a day filled with "+Adjective2+" memories.", 2);
    }
 }
